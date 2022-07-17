@@ -21,4 +21,5 @@ for char in usr_input:
     for i in range(ord(char)):
         output.write("+")
     output.write(".>")
+    output.write("\n")
 output.close()
